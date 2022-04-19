@@ -24,9 +24,9 @@ const ActivityCo = () => {
     return (
         <div className="container">
           <div className="row">
-          <form className="col-sm-9 col-md-7 mx-auto">
+          <form className="col-sm-11 col-xs-11 col-md-11 mx-auto">
             <div class="mb-3">
-            <h4 className="mb-2">Add Activity Co's</h4>
+            <h4 className="mb-2 col-sm-11 col-xs-11 col-md-11 mx-auto">Add Activity Co's</h4>
             <hr />
               <label for="subjectCode" class="form-label">Subject Code</label>
               <input type="text" class="form-control" id="subjectCode" onChange={event=>setSubjectCode(event.target.value)}/>

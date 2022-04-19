@@ -42,9 +42,9 @@ const DisplayActivityMark = () => {
     return( <div>
                    <div className='container'>
                 <h4>Marks of Activity</h4>
-                <input class="form-control search" type="text" placeholder="Search...." aria-label="Search a record" onChange={event=>{setSearch(event.target.value)}}></input>
+                <input class="form-control search col-sm-12 col-xs-12 col-md-12 mx-auto" type="text" placeholder="Search...." aria-label="Search a record" onChange={event=>{setSearch(event.target.value)}}></input>
 
-                <table class="table table-hover table-dark">
+                <table class="table table-hover table-dark col-sm-12 col-xs-12 col-md-12 mx-auto">
                     <thead>
                         <tr className='d-flex'>
                             <th scope="col" className='col-2'>Subject Code</th>

@@ -39,9 +39,9 @@ const DisplayActivityCo = () => {
         });
     }
     return( <div>
-                   <div className='container'>
+                  <div className='container'>
+                   <h4>Display Activity Co</h4>
                    <input class="form-control search" type="text" placeholder="Search...." aria-label="Search a record" onChange={event=>{setSearch(event.target.value)}}></input>
-                <h4>Mid Term-2 Marks</h4>
                 <table class="table table-hover table-dark">
                     <thead>
                         <tr className='d-flex'>

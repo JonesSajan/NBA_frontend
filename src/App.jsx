@@ -75,7 +75,7 @@ function App(props) {
           strict
           exact
           component={Dashboard}
-          path="/"
+          path="/dashboard"
           history={props.history}
         />
 

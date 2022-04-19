@@ -56,7 +56,7 @@ const DisplayMidTerm1Marks = () => {
       <div className="container">
         <h4>Mid Term-1 Marks</h4>
         <input
-          class="form-control search"
+          class="form-control search col-sm-12 col-xs-12 col-md-12 mx-auto"
           type="text"
           placeholder="Search...."
           aria-label="Search a record"
@@ -65,7 +65,7 @@ const DisplayMidTerm1Marks = () => {
           }}
         ></input>
 
-        <table class="table table-hover table-dark">
+        <table class="table table-hover table-dark col-sm-12 col-xs-12 col-md-12 mx-auto">
           <thead>
             <tr className="d-flex">
               <th scope="col" className="col-1">
