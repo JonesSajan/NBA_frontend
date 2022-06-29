@@ -1,4 +1,4 @@
-let ServerURL="http://localhost:4000"
+let ServerURL = "https://nba-aggradation.herokuapp.com";
 
 const getData = async (url) => {
   try {
@@ -8,7 +8,6 @@ const getData = async (url) => {
     return null;
   }
 };
-
 
 const postData = async (url, body) => {
   try {
@@ -24,5 +23,4 @@ const postData = async (url, body) => {
   }
 };
 
-
-export {ServerURL,getData,postData}
+export { ServerURL, getData, postData };
