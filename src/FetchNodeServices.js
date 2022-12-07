@@ -1,4 +1,4 @@
-let ServerURL = "https://nba-aggradation.herokuapp.com";
+let ServerURL = "https://nba-backend.onrender.com";
 
 const getData = async (url) => {
   try {
